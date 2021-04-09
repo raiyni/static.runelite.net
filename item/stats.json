@@ -3685,6 +3685,10 @@
     "weight": 0.02,
     "ge_limit": 13000
   },
+  "972": {
+    "name": "Papyrus",
+    "ge_limit": 13000
+  },
   "973": {
     "name": "Charcoal",
     "weight": 0.005,
@@ -10351,6 +10355,11 @@
     "name": "Dead orb",
     "quest": true,
     "weight": 5.0
+  },
+  "2530": {
+    "name": "Bones",
+    "weight": 0.5,
+    "ge_limit": 3000
   },
   "2532": {
     "name": "Iron fire arrow",
@@ -31454,43 +31463,8 @@
     "name": "Tea leaves",
     "weight": 0.01
   },
-  "7740": {
-    "name": "Beer",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
-  "7742": {
-    "name": "Beer glass",
-    "weight": 0.05,
-    "ge_limit": 10000
-  },
-  "7744": {
-    "name": "Asgarnian ale",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
-  "7746": {
-    "name": "Greenman's ale",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
-  "7748": {
-    "name": "Dragon bitter",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
   "7750": {
     "name": "Moonlight mead",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
-  "7752": {
-    "name": "Cider",
-    "weight": 0.55,
-    "ge_limit": 2000
-  },
-  "7754": {
-    "name": "Chef's delight",
     "weight": 0.55,
     "ge_limit": 2000
   },
@@ -41098,6 +41072,7 @@
   },
   "10496": {
     "name": "Polished buttons",
+    "quest": true,
     "weight": 0.001,
     "ge_limit": 15
   },
@@ -43596,6 +43571,7 @@
   },
   "11323": {
     "name": "Barbarian rod",
+    "quest": true,
     "weight": 1.36
   },
   "11324": {
@@ -71520,6 +71496,21 @@
     "weight": 0.03,
     "ge_limit": 2000
   },
+  "24650": {
+    "name": "Logs",
+    "weight": 2.0,
+    "ge_limit": 15000
+  },
+  "24652": {
+    "name": "Raw shrimps",
+    "weight": 0.12,
+    "ge_limit": 15000
+  },
+  "24655": {
+    "name": "Bones",
+    "weight": 0.5,
+    "ge_limit": 3000
+  },
   "24664": {
     "name": "Twisted ancestral hat",
     "weight": 0.453,
@@ -74125,6 +74116,10 @@
     "name": "Harpoonfish",
     "weight": 0.45
   },
+  "25566": {
+    "name": "Crystallised harpoonfish",
+    "weight": 0.6
+  },
   "25567": {
     "name": "The desert trout - ship's log",
     "weight": 0.51
@@ -74175,8 +74170,10 @@
   },
   "25585": {
     "name": "Fish sack barrel",
+    "weight": 2.267,
     "equipable": true,
     "equipment": {
+      "slot": 1,
       "dslash": 1,
       "dcrush": 1,
       "drange": 2
@@ -74184,8 +74181,10 @@
   },
   "25587": {
     "name": "Open fish sack barrel",
+    "weight": 2.267,
     "equipable": true,
     "equipment": {
+      "slot": 1,
       "dslash": 1,
       "dcrush": 1,
       "drange": 2
@@ -74197,6 +74196,7 @@
   },
   "25592": {
     "name": "Spirit angler headband",
+    "weight": 0.5,
     "equipable": true,
     "equipment": {
       "slot": 0
@@ -74204,6 +74204,7 @@
   },
   "25594": {
     "name": "Spirit angler top",
+    "weight": 1.0,
     "equipable": true,
     "equipment": {
       "slot": 4
@@ -74211,6 +74212,7 @@
   },
   "25596": {
     "name": "Spirit angler waders",
+    "weight": 1.0,
     "equipable": true,
     "equipment": {
       "slot": 7
@@ -74218,6 +74220,7 @@
   },
   "25598": {
     "name": "Spirit angler boots",
+    "weight": 0.5,
     "equipable": true,
     "equipment": {
       "slot": 10
@@ -74246,18 +74249,22 @@
     }
   },
   "25608": {
-    "name": "Pastel flowers",
-    "quest": true,
-    "weight": 0.002
-  },
-  "25609": {
     "name": "Gregg's iou",
     "quest": true,
     "weight": 0.01
+  },
+  "25609": {
+    "name": "Pastel flowers",
+    "quest": true,
+    "weight": 0.002
   },
   "25610": {
     "name": "Thick dye",
     "quest": true,
     "weight": 0.02
+  },
+  "25612": {
+    "name": "S.t.a.s.h blueprint",
+    "weight": 0.1
   }
 }
